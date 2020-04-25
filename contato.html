@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+
+</head>
+<script src="javascript.js"></script>
+
+<body>
+    <div id="interface">
+        <header id="cabecalho">
+            <hgroup>
+                <h1>Fluxo e volume na bolsa de valores </h1>
+                <H2>Bolsa de valores e o risco consiente</H2>
+            </hgroup>
+
+            <img id="icone" src="robo.jpg" />
+            <img id="fotomoney" src="logo.jpg">
+            <nav id="menu">
+                <h1> Menu principal</h1>
+                <ul>
+                    <li><a href="home.html">home</a></li>
+                    <li onmouseover="mudafoto('arquivos.png')" onmouseout="mudafoto('robo.jpg')"><a href="arquivos.html">arquivos</a></li>
+                    <li onmouseover="mudafoto('videos.jpg')" onmouseout="mudafoto('robo.jpg')"><a href="videos.html">videos</a></li>
+                    <li onmouseover="mudafoto('contato.png')" onmouseout="mudafoto('robo.jpg')"><a href="contato.html">contato</a></li>
+                </ul>
+            </nav>
+        </header>
+        <h2>Fale Conosco</h2>
+        <form name="f_usuario" action="" method="get">
+            <label for="tnome">Nome:</label>
+            <input class="quebra" type="text" name="f_nome" id="tnome" maxlength="15" size="20">
+            <label for="tmail">Email:</label>
+            <input class="quebra" type="email" name="f_email" id="tmail">
+            <label class="quebra" for="tmsg">Mensagem:</label>
+            <textarea name="f_msg" id="tmsg" cols="40" rows="5" placeholder="Deixe aqui sua mensagem"></textarea>
+            <label class="quebra" for="">Sexo:</label>
+            <input type="radio" name="f_sexo" id="f_masc"><label for="f_masc"> Masculino</label>
+            <input type="radio" name="f_sexo" id="f_fem"><label for="f_fem">Feminino</label>
+            <input class="quebra espaco" type="submit" name="f_enviar" value="Enviar">
+        </form>
+        <footer id="rodape">
+            <p>Copiright &copy;2020 - Matheus Batista</p>
+        </footer>
+    </div>
+
+
+</body>
+
+</html>
